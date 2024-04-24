@@ -38,7 +38,7 @@ class _WebViewPageState extends State<WebViewPage> {
               child: WebView(
                 zoomEnabled: false,
                 key: _key,
-                initialUrl: 'https://magasin-gaillard-larochelle.fr/',
+                initialUrl: 'https://comiteplus.fr/bienvenue/',
                 javascriptMode: JavascriptMode.unrestricted,
                 onPageFinished: (_) {
                   if (mounted) {
